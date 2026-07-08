@@ -1,0 +1,6 @@
+# Basic libraries
+
+langgraph
+langchain
+langchain_google_genai
+dotenv
