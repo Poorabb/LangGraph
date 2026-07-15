@@ -4,3 +4,6 @@ langgraph
 langchain
 langchain_google_genai
 dotenv
+streamlit
+typing
+pydantic
