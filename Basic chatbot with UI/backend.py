@@ -39,3 +39,17 @@ graph.add_edge("chat_node",END)
 
 # Call graph
 chatbot = graph.compile(checkpointer = checkpointer)
+
+
+
+# CODE FOR STREAMING THE OUTPUT
+
+# stream = chatbot.stream(
+#     {'message':[HumanMessage(content="What is streaming in langgraph")]},
+#     config = {'configurable':{"thread_id":"1"}},
+#     stream_mode = "messages"
+# )
+
+# for message_chunk, metadata in stream:
+#     if message_chunk.content:
+#         print(message_chunk.content, end = "",flush= True)
