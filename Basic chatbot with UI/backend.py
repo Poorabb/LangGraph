@@ -12,7 +12,7 @@ from langchain_core.messages import HumanMessage
 load_dotenv()
 
 # Define LLM model 
-llm = ChatGoogleGenerativeAI(model = "gemini-2.5-flash")
+llm = ChatGoogleGenerativeAI(model = "gemini-3.5-flash")
 
 # Define State for LangGraph app
 class LLMstate(TypedDict):
